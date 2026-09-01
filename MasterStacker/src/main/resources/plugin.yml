@@ -1,0 +1,25 @@
+name: MasterStacker
+version: '1.0.0'
+main: me.GamingMaster0211.MasterStacker.MasterStacker
+api-version: '1.21'
+
+author: GamingMaster0211
+description: Mob and spawner stacking plugin.
+website: https://modrinth.com/mod/masterstacker
+
+commands:
+  masterstacker:
+    description: MasterStacker administration command.
+    usage: /masterstacker <give|reload|cleanupholograms>
+    permission: masterstacker.admin
+    aliases:
+      - ms
+
+permissions:
+  masterstacker.silk:
+    description: Allows players to collect spawners with Silk Touch.
+    default: op
+
+  masterstacker.admin:
+    description: Allows MasterStacker administration commands.
+    default: op
