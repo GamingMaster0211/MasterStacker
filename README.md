@@ -80,3 +80,6 @@ permissions:
   silk-touch: "masterstacker.silk"
   admin: "masterstacker.admin"
 ```
+
+# Compatibility
+Currently, __MasterStacker__ is designed specifically around the __*1.21 Bukkit API*__ version, and around __*Minecraft 1.21.11*__. I do __*not*__ know if this plugin works on later or older versions than *1.21.11*, but I suppose it should work on __1.21__ - __1.21.10__.
